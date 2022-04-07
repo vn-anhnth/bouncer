@@ -1,0 +1,11 @@
+docker-compose build
+docker-compose run -rm app sh -c "django-admin startproject app ."
+docker-compose up
+(https://www.educative.io/blog/docker-compose-tutorial)
+
+docker ps -a
+docker images
+
+docker rm <container-id>
+docker rm -f <container-id>
+docker rmi <image-name>
